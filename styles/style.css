@@ -117,4 +117,17 @@ margin-bottom: 20px;
     
 }
 
+/* support section style start */
+.support-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
    
+.suppot-card{
+    text-align: center;
+}
+.suppot-card-para{
+    padding: 25px 0;
+}
