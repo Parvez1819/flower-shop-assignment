@@ -180,3 +180,138 @@ main {
     width: 318px;
     height: 420px;
 }
+
+/* instagram section style added */
+
+.insta-container {
+    margin-top: 100px;
+    padding: 0 240px;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.insta-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.insta-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/* get latest deals related styles */
+.insta-section {
+    margin-bottom: 100px;
+}
+
+.get-latest-deals {
+    margin-top: 100px;
+    padding: 0 240px
+}
+
+.get-latest-deals-container {
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    width: 1440px;
+    height: 449px
+}
+
+.get-latest-deals-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 120px 0 25px 0;
+}
+
+.get-latest-deals-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+.input-field {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: ffffff;
+    text-align: center;
+}
+
+.btn-subscribe {
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* footer style added */
+
+footer {
+    background-color: #111010;
+    margin-top: 100px;
+    max-width: 1920px;
+}
+
+.footer-container {
+    padding: 0 530px;
+}
+
+.footer-title {
+    padding-top: 130px;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.blossom {
+    color: #E55473;
+
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-bottom: 130px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 30px;
+}
