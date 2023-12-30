@@ -86,48 +86,97 @@ main {
     margin-bottom: 40px;
 }
 
-.flower-card-container{
+.flower-card-container {
     display: flex;
     gap: 20px;
 }
-.circle{
-width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-margin-bottom: 20px;
+
+.circle {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
 }
-.c1{
+
+.c1 {
     background: rgba(167, 33, 98, 0.15);
 
 }
-.c2{
+
+.c2 {
     background: rgba(5, 151, 160, 0.15);
 }
-.c3{
+
+.c3 {
     background: rgba(71, 125, 17, 0.15);
-    
+
 
 }
-.flower-card-container>a{
+
+.flower-card-container>a {
     display: block;
     margin-top: 100px;
 }
-.card{
+
+.card {
     text-align: center;
-    
+
 }
 
 /* support section style start */
-.support-section{
+.support-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
 }
-   
-.suppot-card{
+
+.suppot-card {
     text-align: center;
 }
-.suppot-card-para{
+
+.suppot-card-para {
     padding: 25px 0;
+}
+
+/* hot deal container style added */
+.hot-deal-container {
+    background: rgba(229, 84, 115, 0.144);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 240px;
+}
+
+.hot-deal-left {
+    width: 50%;
+    text-align: center;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off-pink {
+    color: #E55473;
+}
+
+.hot-deal-para {
+    color: rgba(39, 39, 39, 0.60);
+    margin: 30px 0;
+    font-size: 22px;
+    font-weight: 400;
+    width: 590px;
+}
+
+.hot-deal-right {
+    width: 50%;
+}
+
+.hot-deal-right>img {
+    width: 318px;
+    height: 420px;
 }
